@@ -1,0 +1,21 @@
+{
+  "name": "simple-node-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:gilsonrusso/simple-node-api.git",
+  "author": "Gilson Russo <gilsonrusso@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha ./test/* --exit",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.19",
+    "supertest": "^6.2.4"
+  }
+}
